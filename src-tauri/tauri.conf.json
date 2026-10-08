@@ -1,0 +1,31 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "LLMPulse",
+  "version": "1.0.0",
+  "identifier": "com.llmpulse.llmpulse",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://localhost:5173",
+    "beforeBuildCommand": "build.bat"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "LLM Pulse",
+        "width": 340,
+        "height": 250,
+        "minWidth": 320,
+        "minHeight": 220,
+        "maxWidth": 380,
+        "maxHeight": 280,
+        "resizable": false,
+        "center": false,
+        "decorations": true,
+        "alwaysOnTop": true
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  }
+}

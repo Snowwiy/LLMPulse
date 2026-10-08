@@ -1,0 +1,14 @@
+node_modules/
+dist/
+target/
+src-tauri/target/
+.env
+.env.*
+!.env.example
+*.log
+*.exe
+*.msi
+*.msix
+*.pdb
+*.key
+*.pem
