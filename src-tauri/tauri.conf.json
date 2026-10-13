@@ -6,22 +6,21 @@
   "build": {
     "beforeDevCommand": "npm run dev",
     "devUrl": "http://localhost:5173",
-    "beforeBuildCommand": "build.bat"
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "dist"
   },
   "app": {
     "windows": [
       {
-        "title": "LLM Pulse",
+        "title": "LLMPulse",
         "width": 340,
         "height": 250,
         "minWidth": 320,
-        "minHeight": 220,
-        "maxWidth": 380,
-        "maxHeight": 280,
-        "resizable": false,
+        "minHeight": 230,
+        "resizable": true,
         "center": false,
-        "decorations": true,
-        "alwaysOnTop": true
+        "decorations": false,
+        "alwaysOnTop": false
       }
     ],
     "security": {
